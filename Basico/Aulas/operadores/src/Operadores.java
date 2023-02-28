@@ -1,4 +1,8 @@
 public class Operadores {
+    /**
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
      //qual o resultado das expressoes abaixo?
       String concatenacao ="?";
@@ -61,5 +65,20 @@ public class Operadores {
       System.out.println("O numero 1 agora é " + numero1);
       System.out.println("O numero 2 agora é " + numero2);
 
+
+      //String str = "abc";
+      char data[] = {'a', 'b', 'c'};
+      String str = new String(data);
+      System.out.println(str);
+
+
+      System.out.println("abc");
+      String cde = "cde";
+      System.out.println("abc" + cde);
+      String c = "abc".substring(2);
+      String d = cde.substring(2);
+
+      System.out.println(c);
+      System.out.println(d);
     }
 }

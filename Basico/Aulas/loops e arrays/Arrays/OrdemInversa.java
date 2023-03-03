@@ -21,7 +21,7 @@ public class OrdemInversa {
         for(int i = (vetor.length - 1); i >= 0; i--){ // vetor.length - 1 por causa do tamnho(6) e posições(5)
           System.out.print(vetor[i] + " ");
         }
-        
+
         /*loop for-each
         for (int elemento : vetor) { //para cada elemento dentro do vetor
             System.out.print(elemento + " "); //imprima o elemento

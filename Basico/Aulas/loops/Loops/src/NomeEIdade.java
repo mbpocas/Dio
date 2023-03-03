@@ -6,7 +6,7 @@ o primeiro representando o nome do aluno e o segundo representando a sua idade.
 (Pare inserindo o valor 0 no campo nome)
 */
 
-public class Ex1_NomeEIdade {
+public class NomeEIdade {
     public static void main(String[] args) {
         try (Scanner scan = new Scanner(System.in)) {
           //variáveis

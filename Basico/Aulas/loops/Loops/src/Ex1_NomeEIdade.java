@@ -26,6 +26,7 @@ public class Ex1_NomeEIdade {
 
               //imprima o nome e a idade
               System.out.println("Nome: " + nome + " - idade: " + idade);
+              System.out.println("-------------------------------------");
           }
         }
     }
